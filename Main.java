@@ -12,7 +12,7 @@ class Main {
    String [] names = {"Sam","Jade", "Jasmine", "Lucy","Cole" };
    if( name == name[i])
    return true;
-   }else{
+   }else{ 
 
    }
 }
