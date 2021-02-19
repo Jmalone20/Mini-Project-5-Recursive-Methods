@@ -8,15 +8,19 @@ class Main {
     String name = scan.next();
 
     attendance(name, 0);
+
+    
   }
 
   public static boolean attendance(String name, int i) {
     String[] names = { "Sam", "Jade", "Jasmine", "Lucy", "Cole" };
-    if (name == names[i]) {
+    if (name.equals( names[i])) {
+      System.out.println("Yay, we have you " + name + "!");
       return true;
-    } else if (i < 10) {
+    } else if (i < 4) {
+      i++;
       return attendance(name, i);
-    }else{
+    } else {
       return false;
     }
   }
