@@ -10,12 +10,17 @@ class Main {
     attendance(name, 0);
 
     
+    if(attendance = true ){
+      System.out.println("Yay, we have you " + name + "!");
+    }else{
+      System.out.println("Sorry, you are not in the system");
+      }
+    }
   }
 
   public static boolean attendance(String name, int i) {
     String[] names = { "Sam", "Jade", "Jasmine", "Lucy", "Cole" };
-    if (name.equals( names[i])) {
-      System.out.println("Yay, we have you " + name + "!");
+    if (name.equals(names[i])) {
       return true;
     } else if (i < 4) {
       i++;
