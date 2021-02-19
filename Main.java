@@ -9,14 +9,13 @@ class Main {
 
     attendance(name, 0);
 
-    
-    if(attendance = true ){
-      System.out.println("Yay, we have you " + name + "!");
+  if (attendance = true) {
+    System.out.println("Yay, we have you " + name + "!");
     }else{
-      System.out.println("Sorry, you are not in the system");
-      }
+    System.out.println("Sorry, you are not in the system");
     }
   }
+}
 
   public static boolean attendance(String name, int i) {
     String[] names = { "Sam", "Jade", "Jasmine", "Lucy", "Cole" };
