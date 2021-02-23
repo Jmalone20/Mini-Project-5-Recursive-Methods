@@ -26,7 +26,7 @@ class Main {
     String[] names = { "Sam", "Jade", "Jasmine", "Lucy", "Cole" };
     // seeing if the name you type is equal to the name on the list
     if (name.equals(names[i])) {
-      System.out.println("your name is " + name + " & the name you matched on is " + names[i]);
+      System.out.println("Your name is " + name + " & the name you matched on is " + names[i] + "!");
       return true;
     } else if (i < 4) {
       i++;
